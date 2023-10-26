@@ -1,0 +1,46 @@
+nav{
+	box-shadow: 2px 2px 5px #3292a6;
+	z-index: 1111 !important;
+}
+.hero{
+	background: url('../img/mountains.jpg');
+	z-index: -1 !important;
+}
+.hero .overlay{
+	background-color: rgba(50, 146, 156, 0.7);
+	z-index: -1 !important;;
+}
+.hero .overlay .hero-btn{
+	border-radius: 0px !important;
+}
+.team .card{
+	position: relative;
+	border-radius: 0px;
+	transition: 0.5s;
+	margin-top: 20px;
+}
+.team .card img{
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.team .card a{
+	text-decoration: none;
+	font-size: 22px;
+}
+.team .card:hover{
+	background-color: #3292A6;
+	color: #fff;
+}
+.team .card:hover a{
+	color: #fff;
+}
+@media screen and (max-width: 991px){
+	.inspire .card{
+		border-radius: 0px;
+	}
+}
+
