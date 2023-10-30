@@ -3,7 +3,7 @@ nav{
 	z-index: 1111 !important;
 }
 .hero{
-	background: url('../img/mountains.jpg');
+	background: url('mountains.jpg');
 	z-index: -1 !important;
 }
 .hero .overlay{
